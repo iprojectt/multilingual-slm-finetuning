@@ -1,0 +1,426 @@
+INFO:__main__:Starting Qwen-small pretraining script
+INFO:__main__:Starting Qwen-small pretraining script
+INFO:__main__:Starting Qwen-small pretraining script
+INFO:__main__:CUDA available: True, GPUs detected: 4
+INFO:__main__:CUDA available: True, GPUs detected: 4
+INFO:__main__:CUDA available: True, GPUs detected: 4
+INFO:__main__:Hardware supports BF16. Using BF16 for training.
+INFO:__main__:Using dataloader_num_workers=8
+INFO:__main__:Hardware supports BF16. Using BF16 for training.
+INFO:__main__:Using dataloader_num_workers=8
+INFO:__main__:Hardware supports BF16. Using BF16 for training.
+INFO:__main__:Using dataloader_num_workers=8
+INFO:__main__:Loaded tokenizer from ./tokenizer.json; vocab_size=50000
+INFO:__main__:Loading pre-downloaded dataset splits from base directory: /scratch/prakhar/preloaded_dataset
+INFO:__main__:Loaded tokenizer from ./tokenizer.json; vocab_size=50000
+INFO:__main__:Loading pre-downloaded dataset splits from base directory: /scratch/prakhar/preloaded_dataset
+INFO:__main__:Loaded tokenizer from ./tokenizer.json; vocab_size=50000
+INFO:__main__:Loading pre-downloaded dataset splits from base directory: /scratch/prakhar/preloaded_dataset
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_test
+INFO:__main__:Starting Qwen-small pretraining script
+INFO:__main__:CUDA available: True, GPUs detected: 4
+INFO:__main__:Hardware supports BF16. Using BF16 for training.
+INFO:__main__:Using dataloader_num_workers=8
+INFO:__main__:Loaded tokenizer from ./tokenizer.json; vocab_size=50000
+INFO:__main__:Loading pre-downloaded dataset splits from base directory: /scratch/prakhar/preloaded_dataset
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/hindi_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/english_test
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_train
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_valid
+INFO:__main__:Successfully loaded split from /scratch/prakhar/preloaded_dataset/awadhi_test
+INFO:__main__:Loaded disk datasets: train=3 splits, valid=3, test=3
+INFO:__main__:Loaded disk datasets: train=3 splits, valid=3, test=3
+INFO:__main__:Loaded disk datasets: train=3 splits, valid=3, test=3
+INFO:__main__:Loaded disk datasets: train=3 splits, valid=3, test=3
+INFO:__main__:Model created. Approx param count: 201797120
+wandb: Appending key for api.wandb.ai to your netrc file: /home2/aryan.kumar/.netrc
+INFO:__main__:Model created. Approx param count: 201797120
+INFO:__main__:Model created. Approx param count: 201797120
+wandb: Appending key for api.wandb.ai to your netrc file: /home2/aryan.kumar/.netrc
+wandb: Appending key for api.wandb.ai to your netrc file: /home2/aryan.kumar/.netrc
+wandb: Currently logged in as: prakhar_raj (prakhar_raj-iiit-hyderabad) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: prakhar_raj (prakhar_raj-iiit-hyderabad) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: prakhar_raj (prakhar_raj-iiit-hyderabad) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+INFO:__main__:Model created. Approx param count: 201797120
+wandb: Appending key for api.wandb.ai to your netrc file: /home2/aryan.kumar/.netrc
+wandb: creating run
+wandb: creating run
+wandb: creating run
+wandb: Tracking run with wandb version 0.21.4
+wandb: Run data is saved locally in /home2/aryan.kumar/prakhar/wandb/run-20250915_124100-g8ido6jc
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Qwen_mode_pretraining_epochs
+wandb: ⭐️ View project at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project
+wandb: 🚀 View run at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project/runs/g8ido6jc
+wandb: Tracking run with wandb version 0.21.4
+wandb: Run data is saved locally in /home2/aryan.kumar/prakhar/wandb/run-20250915_124100-7t1vy15m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Qwen_mode_pretraining_epochs
+wandb: ⭐️ View project at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project
+wandb: 🚀 View run at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project/runs/7t1vy15m
+wandb: Currently logged in as: prakhar_raj (prakhar_raj-iiit-hyderabad) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+INFO:__main__:wandb init done
+/home2/aryan.kumar/prakhar/train2.py:245: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+wandb: Tracking run with wandb version 0.21.4
+wandb: Run data is saved locally in /home2/aryan.kumar/prakhar/wandb/run-20250915_124100-c1k296ho
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Qwen_mode_pretraining_epochs
+wandb: ⭐️ View project at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project
+wandb: 🚀 View run at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project/runs/c1k296ho
+INFO:__main__:wandb init done
+/home2/aryan.kumar/prakhar/train2.py:245: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+INFO:__main__:wandb init done
+/home2/aryan.kumar/prakhar/train2.py:245: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+wandb: WARNING Using a boolean value for 'reinit' is deprecated. Use 'return_previous' or 'finish_previous' instead.
+INFO:__main__:Starting training from scratch
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 0}.
+INFO:__main__:Starting training from scratch
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 0}.
+INFO:__main__:Starting training from scratch
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 0}.
+wandb: creating run
+wandb: Tracking run with wandb version 0.21.4
+wandb: Run data is saved locally in /home2/aryan.kumar/prakhar/wandb/run-20250915_124101-cm6liiiy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Qwen_mode_pretraining_epochs
+wandb: ⭐️ View project at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project
+wandb: 🚀 View run at https://wandb.ai/prakhar_raj-iiit-hyderabad/lma_mini_project/runs/cm6liiiy
+INFO:__main__:wandb init done
+/home2/aryan.kumar/prakhar/train2.py:245: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+INFO:__main__:Starting training from scratch
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 2, 'bos_token_id': 1, 'pad_token_id': 0}.
+  0%|          | 0/17228 [00:00<?, ?it/s]Traceback (most recent call last):
+  0%|          | 0/17228 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home2/aryan.kumar/prakhar/train2.py", line 263, in <module>
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2328, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2672, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4009, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4099, in compute_loss
+    outputs = model(**inputs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/prakhar/train2.py", line 263, in <module>
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/data_parallel.py", line 194, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2328, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/data_parallel.py", line 213, in parallel_apply
+    return parallel_apply(
+        replicas, inputs, kwargs, self.device_ids[: len(replicas)]
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/parallel_apply.py", line 129, in parallel_apply
+    output.reraise()
+    ~~~~~~~~~~~~~~^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2672, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/_utils.py", line 769, in reraise
+    raise exception
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4009, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4099, in compute_loss
+    outputs = model(**inputs)
+torch.OutOfMemoryError: Caught OutOfMemoryError in replica 0 on device 0.
+Original Traceback (most recent call last):
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/parallel_apply.py", line 99, in _worker
+    output = module(*input, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/generic.py", line 940, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 480, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ~~~~~~~~~~^
+        input_ids=input_ids,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/generic.py", line 1064, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 410, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<6 lines>...
+        **kwargs,
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 260, in forward
+    hidden_states, _ = self.self_attn(
+                       ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 205, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+                               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 115, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+                           ~~~~~~~~~~~^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 90, in rotate_half
+    return torch.cat((-x2, x1), dim=-1)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 2.06 MiB is free. Including non-PyTorch memory, this process has 1.07 GiB memory in use. Process 775557 has 7.89 GiB memory in use. Process 775556 has 1.05 GiB memory in use. Process 775555 has 566.00 MiB memory in use. Of the allocated memory 468.99 MiB is allocated by PyTorch, and 5.01 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/data_parallel.py", line 194, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/data_parallel.py", line 213, in parallel_apply
+    return parallel_apply(
+        replicas, inputs, kwargs, self.device_ids[: len(replicas)]
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/parallel_apply.py", line 129, in parallel_apply
+    output.reraise()
+    ~~~~~~~~~~~~~~^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/_utils.py", line 769, in reraise
+    raise exception
+torch.OutOfMemoryError: Caught OutOfMemoryError in replica 0 on device 0.
+Original Traceback (most recent call last):
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/parallel_apply.py", line 99, in _worker
+    output = module(*input, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/generic.py", line 940, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 480, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ~~~~~~~~~~^
+        input_ids=input_ids,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/generic.py", line 1064, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 410, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<6 lines>...
+        **kwargs,
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 260, in forward
+    hidden_states, _ = self.self_attn(
+                       ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 200, in forward
+    query_states = self.q_norm(self.q_proj(hidden_states).view(hidden_shape)).transpose(1, 2)
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 64, in forward
+    return self.weight * hidden_states.to(input_dtype)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 2.06 MiB is free. Process 775554 has 1.07 GiB memory in use. Process 775557 has 7.89 GiB memory in use. Including non-PyTorch memory, this process has 1.05 GiB memory in use. Process 775555 has 566.00 MiB memory in use. Of the allocated memory 445.05 MiB is allocated by PyTorch, and 8.95 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+  0%|          | 0/17228 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home2/aryan.kumar/prakhar/train2.py", line 263, in <module>
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2328, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2672, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4060, in training_step
+    self.accelerator.backward(loss, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/accelerate/accelerator.py", line 2734, in backward
+    loss.backward(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/_tensor.py", line 647, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 264.06 MiB is free. Process 775554 has 1.07 GiB memory in use. Including non-PyTorch memory, this process has 7.63 GiB memory in use. Process 775556 has 1.05 GiB memory in use. Process 775555 has 566.00 MiB memory in use. Of the allocated memory 6.74 GiB is allocated by PyTorch, and 288.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  0%|          | 0/17228 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home2/aryan.kumar/prakhar/train2.py", line 263, in <module>
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2328, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 2672, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4009, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/transformers/trainer.py", line 4099, in compute_loss
+    outputs = model(**inputs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/data_parallel.py", line 193, in forward
+    replicas = self.replicate(self.module, self.device_ids[: len(inputs)])
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/data_parallel.py", line 200, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/replicate.py", line 126, in replicate
+    param_copies = _broadcast_coalesced_reshape(params, devices, detach)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/replicate.py", line 95, in _broadcast_coalesced_reshape
+    tensor_copies = Broadcast.apply(devices, *tensors)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/autograd/function.py", line 576, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/_functions.py", line 23, in forward
+    outputs = comm.broadcast_coalesced(inputs, ctx.target_gpus)
+  File "/home2/aryan.kumar/micromamba/envs/hep_jepa/lib/python3.13/site-packages/torch/nn/parallel/comm.py", line 66, in broadcast_coalesced
+    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+srun: error: gnode052: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=2497411.0
+slurmstepd: error: *** STEP 2497411.0 ON gnode052 CANCELLED AT 2025-09-15T12:41:08 ***
+srun: error: gnode052: task 1: Exited with exit code 1
+srun: error: gnode052: task 2: Exited with exit code 1
+srun: error: gnode052: task 3: Terminated
+srun: Force Terminated StepId=2497411.0

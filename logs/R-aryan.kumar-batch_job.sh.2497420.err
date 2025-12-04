@@ -1,0 +1,5 @@
+/var/spool/slurmd/job2497420/slurm_script: 16: source: not found
+/var/spool/slurmd/job2497420/slurm_script: 17: conda: not found
+slurmstepd: error: execve(): torchrun: No such file or directory
+srun: error: gnode052: task 0: Exited with exit code 2
+srun: launch/slurm: _step_signal: Terminating StepId=2497420.0

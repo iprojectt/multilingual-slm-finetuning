@@ -1,0 +1,10 @@
+==========================================
+SLURM_JOB_ID = 2497429
+SLURM_NODELIST = gnode052
+SLURM_JOB_GPUS = 0,1,2,3
+==========================================
+Job started on gnode052
+SLURM_JOB_ID: 2497429
+Conda environment activated: 
+Path to torchrun: 
+Path to python: 
