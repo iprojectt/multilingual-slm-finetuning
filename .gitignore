@@ -1,0 +1,10 @@
+*.txt
+*.pdf
+*.csv
+*.jsonl
+
+
+.venv/
+
+awadhi_corpus.ipynb
+token.ipynb
